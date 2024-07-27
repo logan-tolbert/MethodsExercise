@@ -14,47 +14,47 @@ namespace MethodsExercise
     public class Program
     {
         //Exercise 1 methods
-        static string GetName()
+        public static string GetName()
         {
             Console.WriteLine("Enter you name:");
             string name = Console.ReadLine();
             return name;
         }
 
-        static string GreetUser(string name)
+        public static string GreetUser(string name)
         {
             Console.WriteLine($"\nHello, {name}\n");
         }
 
-        static string GetColor()
+        public static string GetColor()
         {
             Console.WriteLine("Enter a color:");
             string color = Console.ReadLine();
             return color;
         }
 
-        static string GetNoun()
+        public static string GetNoun()
         {
             Console.WriteLine("Enter a noun:");
             string noun = Console.ReadLine();
             return noun;
         }
 
-        static string GetAdverb()
+        public static string GetAdverb()
         {
             Console.WriteLine("Enter an adverb:");
             string adverb = Console.ReadLine();
             return adverb;
         }
 
-        static string GetFood()
+        public static string GetFood()
         {
             Console.WriteLine("Enter a food:");
             string food = Console.ReadLine();
             return food;
         }
 
-        static string GetAnimal()
+        public static string GetAnimal()
         {
             Console.WriteLine("Enter an animal:");
             string animal = Console.ReadLine();
@@ -62,7 +62,7 @@ namespace MethodsExercise
         }
 
         //Exercise 2 methods
-        static int Add(params int[] nums)
+        public static int Add(params int[] nums)
         {
             int sum = 0;
             foreach (int num in nums)
@@ -72,7 +72,7 @@ namespace MethodsExercise
             return sum;
         }
 
-        static int Multiply(params int[] nums) 
+        public static int Multiply(params int[] nums) 
         {
             int product = 1;
             foreach (int num in nums)
