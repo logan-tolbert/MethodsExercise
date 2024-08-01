@@ -21,7 +21,7 @@ namespace MethodsExercise
             return name;
         }
 
-        public static string GreetUser(string name)
+        public static void GreetUser(string name)
         {
             Console.WriteLine($"\nHello, {name}\n");
         }
